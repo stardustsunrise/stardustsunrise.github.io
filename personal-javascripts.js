@@ -95,6 +95,7 @@
             });
         });
 
+// Enhanced form submission with better UX
        document.querySelector('.contact-form').addEventListener('submit', async (e) => {
     e.preventDefault();
     const submitBtn = document.querySelector('.submit-btn');
@@ -174,3 +175,4 @@
             }
 
         });
+
